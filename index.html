@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Utilix is a community-driven collection of useful developer tools and small web applications.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Utilix — Useful tools, built together</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#" aria-label="Utilix home">
+        <span class="brand-mark">U</span>
+        <span>utilix<span class="brand-dot">.</span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#toolbox">Developer tools</a>
+        <a href="#miniapps">Mini apps</a>
+        <a href="#about">About</a>
+        <a class="nav-cta" href="https://github.com/arunesh12389/Utilix" target="_blank" rel="noopener noreferrer">Contribute on GitHub ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> BUILT BY THE COMMUNITY</div>
+        <h1>Small tools.<br><span>Big possibilities.</span></h1>
+        <p class="hero-text">A growing collection of handy developer utilities and little web apps — created, shared, and improved by the community.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#explore">Explore the project <span>↓</span></a>
+          <a class="button button-secondary" href="https://github.com/arunesh12389/Utilix" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+        </div>
+        <p class="hero-note">Open source · Community driven · Made to be useful</p>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a collection of digital tools">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="floating-card card-code"><span class="card-icon purple">&lt;/&gt;</span><span><b>Developer tools</b><small>Make work simpler</small></span></div>
+        <div class="floating-card card-app"><span class="card-icon green">▦</span><span><b>Mini apps</b><small>Ideas made useful</small></span></div>
+        <div class="center-symbol"><span>U</span><i></i></div>
+        <div class="spark spark-one">✳</div><div class="spark spark-two">✦</div>
+      </div>
+    </section>
+
+    <section class="stats container" aria-label="Project highlights">
+      <div><strong>01</strong><span>Open-source project</span></div>
+      <div><strong>∞</strong><span>Ideas to explore</span></div>
+      <div><strong>YOU</strong><span>Can contribute</span></div>
+    </section>
+
+    <section class="section container" id="explore">
+      <div class="section-heading">
+        <div><div class="eyebrow">EXPLORE UTILIX</div><h2>One place, two ways to build.</h2></div>
+        <p>Find a useful starting point, or bring an idea of your own to the collection.</p>
+      </div>
+      <div class="module-grid">
+        <article class="module-card" id="toolbox">
+          <div class="module-top"><span class="module-icon purple">⌘</span><span class="module-tag">MODULE 01</span></div>
+          <h3>Developer Toolbox</h3>
+          <p>Small utilities that make everyday development tasks quicker and easier.</p>
+          <div class="chip-list"><span>JSON formatter</span><span>UUID generator</span><span>Regex tester</span><span>Base64 tools</span></div>
+          <div class="module-bottom"><span class="status-dot"></span> Contributions welcome</div>
+        </article>
+        <article class="module-card" id="miniapps">
+          <div class="module-top"><span class="module-icon green">▦</span><span class="module-tag">MODULE 02</span></div>
+          <h3>Mini Apps Hub</h3>
+          <p>Independent, lightweight web applications built around simple, useful ideas.</p>
+          <div class="chip-list"><span>Habit tracker</span><span>Focus timer</span><span>Notes app</span><span>Expense tracker</span></div>
+          <div class="module-bottom"><span class="status-dot"></span> Contributions welcome</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="callout container" id="about">
+      <div class="callout-mark">✳</div>
+      <div>
+        <div class="eyebrow">MADE TOGETHER</div>
+        <h2>Have an idea? Make it part of Utilix.</h2>
+        <p>Utilix grows with every contribution. Build a small tool, share a mini app, improve the docs, or help someone get started.</p>
+      </div>
+      <a class="button button-light" href="https://github.com/arunesh12389/Utilix" target="_blank" rel="noopener noreferrer">Start contributing ↗</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#"><span class="brand-mark">U</span><span>utilix<span class="brand-dot">.</span></span></a>
+      <p>Built by the community, for the community.</p>
+      <a href="https://github.com/arunesh12389/Utilix" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <span class="copyright">© <span id="year"></span> Utilix</span>
+    </div>
+  </footer>
+</body>
+</html>
